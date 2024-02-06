@@ -14,7 +14,7 @@ class Square(Shape):
         return self.length ** 2
 
 shape = Shape()
-print(shape.area())
-
-square = Square(5)
-print(square.area())
+print("S of figure:", shape.area())
+length = float(input("a: "))
+square = Square(length)
+print("S of squre:", square.area())
